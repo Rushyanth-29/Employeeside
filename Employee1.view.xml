@@ -1,0 +1,26 @@
+<mvc:View controllerName="project1.controller.Employee1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" 
+    xmlns="sap.m" xmlns:fiori="sap.ui.webc.fiori">
+    <Page id="page" showHeader="false">
+        <content>
+		
+          <fiori:SideNavigation id="sideNavigation">
+			<fiori:header text="Work" />
+			<fiori:SideNavigationItem icon="home" text="Overview" />
+			<fiori:SideNavigationItem icon="inbox" text="Job Posting">
+				<fiori:items>
+					<fiori:SideNavigationSubItem text="Add Job" />
+					<fiori:SideNavigationSubItem text="Preview" />
+				</fiori:items>
+			</fiori:SideNavigationItem>
+			<fiori:SideNavigationItem icon="employee" text="Applicant status"  />
+			<fiori:SideNavigationItem icon="letter" text="Applicant view">
+				
+			</fiori:SideNavigationItem>
+			
+		</fiori:SideNavigation>
+	
+         
+        </content>
+    </Page>
+</mvc:View>
